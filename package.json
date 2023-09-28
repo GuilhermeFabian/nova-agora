@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "mobx": "^6.10.2",
+    "mobx-react-lite": "^4.0.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "name": "nova-agora",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "^20.7.1",
+    "@types/react": "^18.2.22",
+    "bun-types": "latest",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
